@@ -24,11 +24,12 @@
           <h5>SELECT Sample:</h5>
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
-        <div class="panel panel-primary">
+        <div class="panel panel-primary" style="width: max-content;">
           <div class="panel-heading">
             <h3 class="panel-title">Sample MetaData</h3>
           </div>
-          <div id="sample-metadata" class="panel-body"></div>
+          <div id="sample-metadata" class="panel-body">
+          </div>
         </div>
       </div>
       <div class="col-md-5">
@@ -39,8 +40,8 @@
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-12">
+  <div class="row justify-content-md-center">
+    <div class="col col-md-offset-2 col-md-10">
       <div id="bubble"></div>
     </div>
   </div>
